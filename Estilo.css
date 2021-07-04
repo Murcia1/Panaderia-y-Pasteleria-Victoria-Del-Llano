@@ -1,0 +1,58 @@
+
+    @font-face{
+        font-family: "Ballistick";
+        src: url("./Fuente/Ballistick.ttf");
+    }
+
+header {
+    font-size: 30px;
+    font-family: Ballistick;
+    text-align: center;
+}
+
+header, nav, article {
+   display: block;
+   text-align: center;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(Imagenes/Fondo\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+
+
+.menu li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.Azucarado li, .Andino li, .Espanol li, .Pinita li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px Arial;
+    text-align: left;
+}
+
+h1{
+    color: azure;
+}
+h2, h3, li {
+    color: rgb(255, 255, 255);
+}
+img {
+    width: 540px;
+    display: block;
+    margin-left: 390px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
